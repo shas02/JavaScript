@@ -1,14 +1,14 @@
 // - Візьміть файл template1.html, підключіть до нього скрипт, і працюйте в ньому.
-// console.log(document);
+console.log(document);
 // 1) Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
 // a) отримує текст з параграфа з id "content"
-// let a = document.getElementById("content");
-// // const a = document.getElementsByTagName('p');
-// console.log(a);
+let a = document.getElementById("content");
+const a = document.getElementsByTagName('p');
+console.log(a);
 
 // b) отримує текст з блоку з id "rules"
 const b = document.getElementById('rules');
-// const b = document.getElementsByClassName('fc_bp');
+const b = document.getElementsByClassName('fc_bp');
 console.log(b);
 
 // c) замініть текст параграфа з id 'content' на будь-який інший
