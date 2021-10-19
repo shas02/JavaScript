@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #gallery {
+            width: 640px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        #gallery .photos img {
+            width: 100%;
+            display: none;
+        }
+
+        #gallery .photos img:first-child {
+            display: block;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="hider">
+    <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, sapiente!</p>
+    <input type="button" id="hider" value="Нажми, щоб заховати текст"/>
+</div>
+<br>
+<form action="" id='form' name='form1'>
+    <input type="number" name="age">
+    <input type="submit" name="ageSender">
+</form>
+
+<br>
+
+<div class="menu">
+    <button class="menuButton">Меню</button>
+    <div class="menuBar">
+        <a href="#">Особиста сторінка</a>
+        <br>
+        <a href="#">Повідомлення</a>
+        <br>
+        <a href="#">Контакти</a>
+    </div>
+</div>
+
+<div class="comments" style="border: 1px solid black"></div>
+
+<br>
+
+<form action="" name="form3">
+    <input type="text">
+    <input type="text">
+</form>
+
+<form action="" name="form4">
+    <input type="text">
+    <input type="text">
+</form>
+
+<br>
+
+<div id="myDynamicTable"></div>
+
+<br>
+
+<div id="gallery">
+    <div class="photos">
+        <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg">
+        <img src="https://www.decorprint.com.ua/wp-content/uploads/2017/06/w-325-1.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH19hVnzV-ZXdQU7v-xJRN99xxhw3_ADQW_A&usqp=CAU">
+    </div>
+    <div class="buttons">
+        <button class="prev">Назад</button>
+        <button class="next">Вперед</button>
+    </div>
+</div>
+
+<form action="" name="swearWords">
+    <input type="text" name="someText">
+    <input type="submit" name="okBtn" value="OK">
+</form>
+
+<br>
+
+<div class="usersDiv">
+    <form action="" name="filterForm">
+        <input type="checkbox" name="filter1" id="filter1">
+        <label for="filter1">Неодружені</label>
+
+        <input type="checkbox" id="filter2" name="filter2" value="Старше 29 років">
+        <label for="filter2">Старше 29 років</label>
+
+        <input type="checkbox" id="filter3" name="filter3" value="Місто Київ">
+        <label for="filter3">Місто Київ</label>
+
+        <input type="button" name="confirmBtn" value="OK">
+    </form>
+    <br>
+</div>
+
+<script src="practice7.js"></script>
+</body>
+</html>
