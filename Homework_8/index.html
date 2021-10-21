@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_8</title>
+</head>
+<body>
+
+<video src="" id="videoWebCam" style="width: 300px; height: 300px"></video>
+
+<textarea id="text" cols="45" rows="10"></textarea>
+
+<form id="form-info">
+    <div class="main-info">
+        <input type="text" id="name" placeholder="name" name="name">
+        <input type="text" id="age" placeholder="age" name="age">
+        <input type="text" id="prof" placeholder="profession" name="prof">
+        <input type="text" id="lastName" placeholder="lastName" name="lastName">
+    </div>
+    <div class="gender">
+        <label for="male">
+            Man
+            <input type="radio" name="gender" id="male" value="male">
+        </label>
+        <label for="female">
+            Woman
+            <input type="radio" name="gender" id="female" value="female">
+        </label>
+        <label for="neo">
+            Neo
+            <input type="radio" name="gender" id="neo" value="neo">
+        </label>
+    </div>
+    <label for="isMarried">
+        Married
+        <input type="checkbox" id="isMarried" name="isMarried">
+    </label>
+    <textarea placeholder="about you..." id="formArea" name="formArea"></textarea>
+</form>
+
+<div>
+    <button id="back">back</button>
+    <button id="forward">forward</button>
+</div>
+
+<textarea
+        name="text1"
+        id="text1"
+        cols="30"
+        rows="10">
+
+</textarea>
+
+<div>
+    <button id="save">save</button>
+</div>
+
+<form id="informationForm" name="informationForm">
+    <div class="main-info">
+        ПІП
+        <div class="input">
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+        Номер телефону
+        <div class="input">
+            <input type="tel" id="number" name="number">
+        </div>
+        <br>
+        Імейл
+        <div class="input">
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        Фірма
+        <div class="input">
+            <input type="text" id="firm" name="firm">
+        </div>
+        <br>
+        Відділ
+        <div class="input">
+            <input type="text" id="department" name="department">
+        </div>
+        <br>
+        Дата народження
+        <div class="input">
+            <input type="date" id="date_of_birth" name="date_of_birth">
+        </div>
+        <br>
+
+    </div>
+
+    <div id="buttons">
+        <button id="save">Зберегти</button>
+        <button id="edit">Редагувати</button>
+        <button id="remove">Видалити</button>
+    </div>
+    <br>
+    <div>
+        <button id="back">Показати попереднього Юзера</button>
+        <button id="next">Показати наступного Юзера</button>
+    </div>
+
+</form>
+
+
+<script src="homework8.js"></script>
+</body>
+</html>
